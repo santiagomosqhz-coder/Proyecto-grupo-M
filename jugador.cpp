@@ -11,8 +11,7 @@ private:
     vector<Carta> mano;
     vector<Carta> cartasGanadas;
 
-    public:
-    Jugador(int idJugador = 0) : idJugador(idJugador) {
+        Jugador(int idJugador = 0); {
         
     }
 
