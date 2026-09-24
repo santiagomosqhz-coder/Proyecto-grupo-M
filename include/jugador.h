@@ -3,3 +3,8 @@
 
 #include <vector>
 #include "Carta.h"
+class jugador {
+
+
+    
+}
