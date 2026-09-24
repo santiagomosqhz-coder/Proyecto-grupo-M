@@ -1,11 +1,17 @@
+#ifndef JUGADOR_H
+#define JUGADOR_H
+
+#include <vector>
+#include "Carta.h"
+
+
 class Jugador {
 private:
     int idJugador;
     vector<Carta> mano;
     vector<Carta> cartasGanadas;
 
-    public:
-    Jugador(int idJugador = 0) : idJugador(idJugador) {
+        Jugador(int idJugador = 0); {
         
     }
 
