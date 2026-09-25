@@ -26,3 +26,11 @@ int Jugador::getNumeroCartas() const {
 int Jugador::getPuntos() const {
     return static_cast<int>(cartasGanadas.size());
 }
+void Jugador::mostrarMano() const {
+    cout << "Jugador " << idJugador << " - mano: ";
+    for (size_t i = 0; i < mano.size(); i++) {
+        cout << "(" << i << ") ";
+        cout << "[" << colorToString(mano[i].getColor()) << " " << mano[i].getNumero() << "] ";
+    }
+    cout << endl;
+}
