@@ -19,3 +19,10 @@ Carta Jugador::jugarCarta(int posicion) {
 void Jugador::agregarCartaGanada(Carta carta) {
     cartasGanadas.push_back(carta);
 }
+int Jugador::getNumeroCartas() const {
+    return static_cast<int>(mano.size());
+}
+
+int Jugador::getPuntos() const {
+    return static_cast<int>(cartasGanadas.size());
+}
