@@ -34,3 +34,9 @@ void Jugador::mostrarMano() const {
     }
     cout << endl;
 }
+bool Jugador::tieneCartasDeColor(Color color) const {
+    for (const Carta& c : mano) {
+        if (c.getColor() == color) return true;
+    }
+    return false;
+}
