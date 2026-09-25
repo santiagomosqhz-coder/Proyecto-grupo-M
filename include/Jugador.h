@@ -4,5 +4,10 @@
 #include <vector>
 #include "Carta.h"
 class Jugador {
+private:
+    int idJugador;
+    std::vector<Carta> mano;
+    std::vector<Carta> cartasGanadas;
     
+
 }
