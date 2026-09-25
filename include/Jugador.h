@@ -24,3 +24,4 @@ public:
     bool tieneCartasDeColor(Color color) const;    
 
 };
+#endif
