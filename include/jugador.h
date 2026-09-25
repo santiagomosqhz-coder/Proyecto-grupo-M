@@ -12,5 +12,4 @@ class jugador {
 public:
     Jugador(int idJugador = 0);
 
-
 }
