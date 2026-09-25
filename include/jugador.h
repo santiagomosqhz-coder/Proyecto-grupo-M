@@ -11,5 +11,16 @@ class jugador {
 
 public:
     Jugador(int idJugador = 0);
+    int getId() const;
 
+    void recibirCarta(Carta carta);
+    Carta jugarCarta(int posicion);
+    void agregarCartaGanada(Carta carta);
+
+    int getNumeroCartas() const;
+    int getPuntos() const;
+
+    void mostrarMano() const;
+    bool tieneCartasDeColor(Color color) const;
 }
+#endif
