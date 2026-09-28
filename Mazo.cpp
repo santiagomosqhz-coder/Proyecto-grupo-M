@@ -21,3 +21,16 @@ void Mazo::barajar() {
     unsigned seed = static_cast<unsigned>(time(nullptr));
     shuffle(cartas.begin(), cartas.end(), default_random_engine(seed));
 }
+Carta Mazo::repartirCarta() {
+    Carta ultima = cartas.back();
+    cartas.pop_back();
+    return ultima;
+}
+
+bool Mazo::estaVacio() const {
+    return cartas.empty();
+}
+
+int Mazo::getNumeroCartas() const {
+    return static_cast<int>(cartas.size());
+}
