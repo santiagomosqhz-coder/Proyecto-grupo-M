@@ -43,3 +43,8 @@ El mazo tiene cartas de **4 colores**: amarillo, azul, rojo y verde. Cada color 
 ## Fin del juego
 
 Los puntos se suman de acuerdo con la cantidad de cartas. El juego continúa hasta que un jugador se queda **sin cartas**; ese jugador es quien pierde, y gana quien tenga más puntos.
+
+## Diagrama UML
+
+El diagrama corresponde a las clases del código fuente.
+![Captura del juego](https://github.com/santiagomosqhz-coder/Proyecto-grupo-M/blob/68799a1fd0b4c80dd9b2ea9f0f7a37f7b7a5a26f/diagrama_uml.png)
