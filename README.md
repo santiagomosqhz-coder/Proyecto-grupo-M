@@ -47,8 +47,9 @@ Los puntos se suman de acuerdo con la cantidad de cartas. El juego continúa has
 ## Diagrama UML
 
 El diagrama corresponde a las clases del código fuente.
-<<<<<<< HEAD
-![Captura del juego](https://github.com/santiagomosqhz-coder/Proyecto-grupo-M/blob/68799a1fd0b4c80dd9b2ea9f0f7a37f7b7a5a26f/diagrama_uml.png)
+
+<img src="https://github.com/santiagomosqhz-coder/Proyecto-grupo-M/blob/68799a1fd0b4c80dd9b2ea9f0f7a37f7b7a5a26f/diagrama_uml.png" alt="Diagrama UML" width="600">
+
 
 ## Estructura del proyecto
 Proyecto-grupo-M/
@@ -74,6 +75,4 @@ Requisitos: un compilador con soporte para C++11 o superior (por ejemplo, `g++`)
 - SANTIAGO MOSQUERA MOSQUERA 
 - JAIRO ESTEBAN LOPEZ BETANCUR
 - YEISON MORENO BERRIO
-=======
-<img src="https://github.com/santiagomosqhz-coder/Proyecto-grupo-M/blob/68799a1fd0b4c80dd9b2ea9f0f7a37f7b7a5a26f/diagrama_uml.png" alt="Diagrama UML" width="600">
->>>>>>> b361d67226fb30baf0b5129c58ce332adad92b9f
+
