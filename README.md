@@ -47,4 +47,29 @@ Los puntos se suman de acuerdo con la cantidad de cartas. El juego continúa has
 ## Diagrama UML
 
 El diagrama corresponde a las clases del código fuente.
-<img src="![ruta/o/url-de-la-imagen.png](https://github.com/santiagomosqhz-coder/Proyecto-grupo-M/blob/68799a1fd0b4c80dd9b2ea9f0f7a37f7b7a5a26f/diagrama_uml.png)" alt="Texto alternativo" width="300">
+![Captura del juego](https://github.com/santiagomosqhz-coder/Proyecto-grupo-M/blob/68799a1fd0b4c80dd9b2ea9f0f7a37f7b7a5a26f/diagrama_uml.png)
+
+## Estructura del proyecto
+Proyecto-grupo-M/
+├── docs/
+│   └── imagenes/        # Capturas y diagrama UML
+├── Carta.h / Carta.cpp
+├── Color.h / color.cpp
+├── Criterio.h / Criterio.cpp
+├── Jugador.h / Jugador.cpp
+├── Mazo.h / Mazo.cpp
+├── Juego.h / Juego.cpp
+├── main.cpp             # Punto de entrada del programa
+├── .gitignore
+└── README.md
+
+
+## Compilación y ejecución
+
+Requisitos: un compilador con soporte para C++11 o superior (por ejemplo, `g++`).
+
+## Integrantes
+
+- SANTIAGO MOSQUERA MOSQUERA 
+- JAIRO ESTEBAN LOPEZ BETANCUR
+- YEISON MORENO BERRIO
