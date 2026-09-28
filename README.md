@@ -39,3 +39,7 @@ El mazo tiene cartas de **4 colores**: amarillo, azul, rojo y verde. Cada color 
 | 3 | Los demás jugadores juegan una carta. |
 | 4 | Se revelan las cartas y se determina al ganador de la ronda. |
 | 5 | Se actualizan los puntos y comienza una nueva ronda. |
+
+## Fin del juego
+
+Los puntos se suman de acuerdo con la cantidad de cartas. El juego continúa hasta que un jugador se queda **sin cartas**; ese jugador es quien pierde, y gana quien tenga más puntos.
