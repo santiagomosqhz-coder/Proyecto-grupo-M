@@ -47,4 +47,4 @@ Los puntos se suman de acuerdo con la cantidad de cartas. El juego continúa has
 ## Diagrama UML
 
 El diagrama corresponde a las clases del código fuente.
-<img src="![ruta/o/url-de-la-imagen.png](https://github.com/santiagomosqhz-coder/Proyecto-grupo-M/blob/68799a1fd0b4c80dd9b2ea9f0f7a37f7b7a5a26f/diagrama_uml.png)" alt="Texto alternativo" width="300">
+<img src="https://github.com/santiagomosqhz-coder/Proyecto-grupo-M/blob/68799a1fd0b4c80dd9b2ea9f0f7a37f7b7a5a26f/diagrama_uml.png" alt="Diagrama UML" width="600">
