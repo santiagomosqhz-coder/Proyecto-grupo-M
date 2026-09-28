@@ -1,4 +1,5 @@
 #include "Juego.h"
+#include "Guardar.h"
 #include <iostream>
 
 using namespace std;
@@ -19,7 +20,11 @@ void Juego::iniciarJuego() {
         iniciarRonda();
         jugarRonda();
         cambiarTurno();
-    }
+        
+        if (!haTerminado()) {
+            Guardar::ofrecerGuardado(*this);
+        }
+    }   
 
     int ganador = determinarGanadorJuego();
     cout << "\n=== FIN DEL JUEGO ===" << endl;
@@ -163,3 +168,10 @@ bool Juego::haTerminado() {
     }
     return true;
 }
+
+int Juego::getNumJugadores() const { return numJugadores; }
+int Juego::getTurno() const { return turno; }
+Color Juego::getColorElegido() const { return colorElegido; }
+Criterio Juego::getCriterio() const { return criterio; }
+const vector<Jugador>& Juego::getJugadores() const { return jugadores; }
+const Mazo& Juego::getMazo() const { return mazo; }

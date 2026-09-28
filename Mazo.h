@@ -9,7 +9,7 @@ private:
 
 public:
     Mazo();
-
+    
     void crearMazo();
     void barajar();
     Carta repartirCarta();

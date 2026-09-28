@@ -1,11 +1,17 @@
 #include <iostream>
 #include "Juego.h"
+#include "Guardar.h"
 
 using namespace std;
 
 int main() {
     int numJugadores;
     cout << "===== JUEGO DE CARTAS POR COLOR Y VALOR =====" << endl;
+    
+    // Si hay una partida guardada, se ofrece continuarla
+    if (Guardar::ofrecerCargar()) {
+        return 0;   // la partida cargada ya se jugo hasta el final
+    }
     cout << "Numero de jugadores: ";
     cin >> numJugadores;
     while (numJugadores < 2 || numJugadores > 4) {

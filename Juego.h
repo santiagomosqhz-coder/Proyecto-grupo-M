@@ -38,6 +38,14 @@ public:
 
     Jugador& obtenerJugador(int id);
     bool haTerminado();
+    
+    // Getters (necesarios para guardar la partida)
+    int getNumJugadores() const;
+    int getTurno() const;
+    Color getColorElegido() const;
+    Criterio getCriterio() const;
+    const std::vector<Jugador>& getJugadores() const;
+    const Mazo& getMazo() const;
 };
 
 #endif // JUEGO_H

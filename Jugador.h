@@ -12,7 +12,8 @@ public:
     Jugador(int idJugador = 0);
 
     int getId() const;
-
+    const std::vector<Carta>& getMano() const;
+    const std::vector<Carta>& getCartasGanadas() const;
     void recibirCarta(Carta carta);
     Carta jugarCarta(int posicion);
     void agregarCartaGanada(Carta carta);

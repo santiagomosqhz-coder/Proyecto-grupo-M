@@ -40,3 +40,11 @@ bool Jugador::tieneCartasDeColor(Color color) const {
     }
     return false;
 }
+
+const std::vector<Carta>& Jugador::getMano() const {
+    return mano;
+}
+
+const std::vector<Carta>& Jugador::getCartasGanadas() const {
+    return cartasGanadas;
+}
