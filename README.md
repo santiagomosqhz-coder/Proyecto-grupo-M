@@ -29,3 +29,13 @@ El mazo tiene cartas de **4 colores**: amarillo, azul, rojo y verde. Cada color 
 4. Los demás jugadores responden con la carta que consideren más adecuada según el criterio anunciado.
 5. Se revelan todas las cartas. **Gana la ronda** quien tenga la carta con el número más bajo o más alto, según el criterio.
 6. El juego continúa ronda tras ronda.
+
+## Desarrollo de una ronda
+
+| Paso | Acción |
+|------|--------|
+| 1 | El jugador que abre coloca una carta boca abajo. |
+| 2 | Anuncia el color y el criterio (más alto o más bajo). |
+| 3 | Los demás jugadores juegan una carta. |
+| 4 | Se revelan las cartas y se determina al ganador de la ronda. |
+| 5 | Se actualizan los puntos y comienza una nueva ronda. |
