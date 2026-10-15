@@ -16,6 +16,7 @@ Juego de cartas por turnos desarrollado en **C++**. Cada jugador recibe cinco ca
 - [Estructura del proyecto](#estructura-del-proyecto)
 - [Compilación y ejecución](#compilación-y-ejecución)
 - [Integrantes](#integrantes)
+- [Prueba](#prueba)
 
 ## Descripción del juego
 
@@ -75,4 +76,4 @@ Requisitos: un compilador con soporte para C++11 o superior (por ejemplo, `g++`)
 - SANTIAGO MOSQUERA MOSQUERA 
 - JAIRO ESTEBAN LOPEZ BETANCUR
 - YEISON MORENO BERRIO
-
+## Prueba
